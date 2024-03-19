@@ -42,7 +42,10 @@
 .navbar li{
     cursor: pointer;
 }
-.navbar .navbar-search-icon .dot{
+.navbar-search-icon {
+    position: relative;
+}
+.navbar-search-icon .dot{
     position: absolute;
     max-width: 10px;
     min-height: 10px;
@@ -51,12 +54,4 @@
     top: -8px;
     right: -8px;
 }
-    /* here cart dot color issuea 
-    position: absolute;
-    max-width: 10px;
-    min-height: 10px;
-    background-color: tomato;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px; */
-
+   
