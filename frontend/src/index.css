@@ -19,3 +19,14 @@ a{
   width: 80%;
   margin: auto;
 }
+
+
+/* this code for give thetext animation for appear*/
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
